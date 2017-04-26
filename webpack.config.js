@@ -18,9 +18,9 @@ module.exports = {
             },
             {
                 //此处配置打包时需要注释掉 不然会和下面配置的.styl冲突
-                test: /\.less/,
-                include: /css/,
-                loaders: ['style-loader', 'css-loader?modules','less-loader']
+                test: /\.css/,
+                include: [/css/,/fonts/],
+                loaders: ['style-loader', 'css-loader?modules']
             },
             // {打包时配置此处
             //     test: /\.css/,

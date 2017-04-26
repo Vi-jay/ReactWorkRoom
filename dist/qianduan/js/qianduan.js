@@ -12445,7 +12445,7 @@ var HTMLDOMPropertyConfig = {
     autoCorrect: 0,
     // autoSave allows WebKit/Blink to persist values of input fields on page reloads
     autoSave: 0,
-    // color is for Safari mask-icon link
+    // color is for Safari mask-fonts link
     color: 0,
     // itemProp, itemScope, itemType are for
     // Microdata support. See http://schema.org/docs/gs.html
@@ -12457,7 +12457,7 @@ var HTMLDOMPropertyConfig = {
     // https://html.spec.whatwg.org/multipage/microdata.html#microdata-dom-api
     itemID: 0,
     itemRef: 0,
-    // results show looking glass icon and recent searches on input
+    // results show looking glass fonts and recent searches on input
     // search fields in WebKit/Blink
     results: 0,
     // IE-only attribute that specifies security restrictions on an iframe
@@ -18437,13 +18437,13 @@ var ATTRS = {
   floodColor: 'flood-color',
   floodOpacity: 'flood-opacity',
   focusable: 0,
-  fontFamily: 'font-family',
-  fontSize: 'font-size',
-  fontSizeAdjust: 'font-size-adjust',
-  fontStretch: 'font-stretch',
-  fontStyle: 'font-style',
-  fontVariant: 'font-variant',
-  fontWeight: 'font-weight',
+  fontFamily: 'fonts-family',
+  fontSize: 'fonts-size',
+  fontSizeAdjust: 'fonts-size-adjust',
+  fontStretch: 'fonts-stretch',
+  fontStyle: 'fonts-style',
+  fontVariant: 'fonts-variant',
+  fontWeight: 'fonts-weight',
   format: 0,
   from: 0,
   fx: 0,
